@@ -1,0 +1,14 @@
+name: opChat
+author: GEATEAM(geaking)
+website: github.com/GEATEAM
+description: Админ чат для вашего сервера!
+version: 0.0.1
+api: 2.0.0
+main: geaking\opChat
+commands:
+  oc:
+    permission: opchat.oc
+    description: Админ чат
+permissions:
+  opchat.oc:
+    default: op
